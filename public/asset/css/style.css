@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caladea&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    background-color:#0f417a!important;
+    justify-content: space-between;
+    border-bottom: 5px solid #ce0033;
+    padding: 0.5rem 1rem 0 1rem;
+    height: 15.9vh;
+    /* overflow: wrap; */
+}
+.image{
+    padding: 0px 20px;
+    margin: 0;
+}
+.navl{
+    border-right:2px solid rgba(0, 0, 0, 0.603);
+    border-left:2px solid rgba(255, 255, 255 , 0.1);
+    margin: 0;
+}
+.navl:hover{
+    background-color: #124d91;
+}
+.navl:focus{
+    background-color: #ce0033;
+}
+.logo{
+    width: 180px;    
+    margin: 0;
+    padding-right: 10px;
+}
+.navb{
+    border-right:2px solid rgba(0, 0, 0, 0.603);
+    margin:0;
+    padding-right: 16px;
+}
+.navd{
+    border-right:2px solid rgba(255, 255, 255 , 0.1);
+}
+.boutonr{
+    border-color: #ce0033;
+}
+.boutonr:hover{
+    background-color:#ce0033;
+    border-color:#ce0033;
+}
+.boutonr:active{
+    background-color: #ce0033!important;
+    border-color: #ce0033!important;
+}
+.boutonr:focus{
+    box-shadow:0 0 0 0.2rem #ce003493!important;
+}
+.inputr:focus{
+    border-color: #ce0033;
+    box-shadow: 0 0 0 0.2rem #ce003493;
+}
+.pied{
+    border-top: 5px solid #ce0033;
+    background-color: #0f417a;
+    height: 8vh;
+}
+.pied span{
+    color: #fff;
+}
+.bodybg{
+    background: url(../images/bg.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+}
+.corps{
+    margin:0;
+    height: 75.8vh;
+}
+.bodytext{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+.text1{
+    font-weight: bold;
+    font-size: 250%;
+    line-height: 200%;
+}
+.text2{
+    color: #ce0033;
+    font-family: 'Caladea', sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+}
+.text3{
+    color: #0f417a;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+/* CSS PAGE ENREGISTRER */
+.enregistrer{
+    padding:5%;
+    background-color: #f5f5f5;
+    height: auto;
+}
+.champinput{
+    padding:2% 6%;
+}
+.champinputphoto{
+    padding: 1% 3%;
+}
+.fieldcadre{
+    border:2px solid#fffffffd;
+    background-color: #ffffff88;
+    border-radius: 5px;
+}
+.fieldcadre:hover{
+    background: #fafafa;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.inputborder{
+    border: none;
+}
+.inputlabel{
+    border: none;
+}
+legend{
+    color: #ce0033;
+    font-weight: bold;
+}
+.feuillebox{
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.2),0 6px 17px 0 rgba(0,0,0,0.19);
+    padding: 10px;
+}
+.boutons{
+    justify-content: center;
+}
+.boutons button{
+    margin: 10px;
+}
+.envoyer{
+    background-color: #0f417a;
+    border-color:#0f417a;
+}
+.envoyer:hover{
+    background-color: #124d91;
+}
+.annuler{
+    background-color: #ce0033;
+    border-color:#ce0033;
+}
+.annuler:hover{
+    background-color: #fc2057;
+    border-color: #fc2057;
+}
+.tuteur{
+    margin-top: 20px;
+}
+
+/* CSS PAGE LISTER */
+.lister{
+    margin:0;
+    padding:5% 2%;
+    background-color: #f5f5f5;
+    height: auto;
+}
+.table td, .table th{
+    padding: 0.75rem 0.20rem;
+}
+.listetableau thead th{
+    vertical-align: top;
+    background-color: rgb(179, 177, 177);  
+}
+.titreliste{
+    color: #ce0033;
+    font-weight: bold;
+}
+.listetableau{
+    text-align: center;
+    padding: 0;
+}
+.lignetableau:hover{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2),0 6px 8px 0 rgba(0, 0, 0, 0.103);
+}
+
+
+@media screen and (max-width:480px){
+    .bodytext{
+        position: absolute;
+        top:40%;
+        text-align: center;
+    }
+    .text1{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .text2{
+        color: #ce0033;
+        font-family: 'Caladea', sans-serif;
+        font-size: 10px;
+        line-height: 8px;
+        font-weight: 600;
+    }
+    .text3{
+        color: #0f417a;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 8px;
+    }
+    /* PAGE LISTER */
+    .titreliste{
+        text-align: center;
+    }
+}
